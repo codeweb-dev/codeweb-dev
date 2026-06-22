@@ -30,18 +30,6 @@
 
 ###
 
-<h3 align="left">🔊 My Recent Music:</h3>
-
-###
-
-<div align="center">
-  <a href="https://open.spotify.com/user/31y3p4ywnnlf2zohxzgovp5td75i">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31y3p4ywnnlf2zohxzgovp5td75i&count=5&unique=true" alt="Spotify recently played"  />
-  </a>
-</div>
-
-###
-
 <h3 align="left">🛠 Language and tools</h3>
 
 ###
