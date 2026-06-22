@@ -26,7 +26,7 @@
 
 ###
 
-<p align="left">👋 Hi, I'm Allen from the Philippines<br><br>🎓 3rd-year Computer Science student<br>🌱 Currently learning web and mobile development<br>🚀 Focused on consistent, advanced learning and real-world projects<br>🎸 In my free time, I explore new tech, collect interesting things, and play guitar</p>
+<p align="left">👋 Hi, I'm Allen from the Philippines<br><br>🎓 4th-year Computer Science student<br>🌱 Currently learning web and mobile development<br>🚀 Focused on consistent, advanced learning and real-world projects<br>🎸 In my free time, I explore new tech, collect interesting things, and play guitar</p>
 
 ###
 
