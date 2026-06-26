@@ -5,7 +5,7 @@
 
 <!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=4000&pause=1000&color=4F8EF7&center=true&vCenter=true&width=700&lines=Hi+there!+I'm+Allen+👋;React+Native+Developer;Web+Developer;Computer+Science+Student;Always+Learning+🚀" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=4000&pause=1000&color=4F8EF7&center=true&vCenter=true&width=700&lines=Hi+there!+I'm+Allen+%F0%9F%91%8B;Computer+Science+Student;React+Native+Developer;Web+Developer;Always+Learning+New+Things+%F0%9F%9A%80" />
 </p>
 
 <!-- Profile Views -->
