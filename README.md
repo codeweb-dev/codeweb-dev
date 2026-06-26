@@ -9,15 +9,13 @@
 </p>
 
 <!-- Profile Views + Committers.top -->
-<div align="left">
-    <a href="https://www.facebook.com/alleningrahamlabrague">
-    <img src="https://img.shields.io/badge/-x3ef8-blue?style=flat&logo=facebook&logoColor=white&link=https://facebook.com/0x3ef8.dev" alt="Follow me on Facebook">
-    </a>
-    <a href="https://user-badge.committers.top/philippines/codeweb-dev">
-        <img src="https://user-badge.committers.top/philippines/codeweb-dev" alt="committers.top badge">
-    </a>
-    <img align="right" src="https://komarev.com/ghpvc/?username=codeweb-dev&label=Profile+Views&style=for-the-badge&color=blueviolet" alt="Views">
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=codeweb-dev&label=Profile+Views&style=for-the-badge&color=blueviolet" />
+
+  <a href="https://user-badge.committers.top/philippines/codeweb-dev">
+    <img src="https://user-badge.committers.top/philippines/codeweb-dev.svg" alt="committers.top badge" />
+  </a>
+</p>
 
 <!-- Socials -->
 <p align="center">
