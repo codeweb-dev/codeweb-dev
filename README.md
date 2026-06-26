@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" />
   <img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/codeweb-dev?style=for-the-badge" />
 </p>
 
 <!-- Socials -->
