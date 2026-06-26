@@ -344,9 +344,11 @@
 />
 ```
 
-```aura width=800 height=28 inline align=center
+```aura width=800 height=44 align=center
 <div
   style={{
+    width: '100%',
+    marginTop: 16,
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
