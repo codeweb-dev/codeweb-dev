@@ -143,31 +143,18 @@
 
 ```aura width=800 height=260
 <div style={{ display: 'flex', gap: 16, width: '100%', height: '100%', fontFamily: 'Inter, sans-serif' }}>
-  <div
-    style={{
-    width: 300,
-    height: '100%',
-    borderRadius: 20,
-    overflow: 'hidden',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-  }}
-  >
-    <a href="https://daily.dev/alleeendev">
-      <img
-        src="https://api.daily.dev/devcards/v2/3V8Tp9n0weSlaBFQarzAu.png?type=default&r=gq8"
-        width="260"
-        alt="Allen's Dev Card"
-        style={{
-          borderRadius: 14,
-          boxShadow: '0 10px 30px rgba(0,0,0,.35)',
-        }}
-      />
-    </a>
-  </div>
+  <a href="https://daily.dev/alleeendev">
+    <img
+      src="https://api.daily.dev/devcards/v2/3V8Tp9n0weSlaBFQarzAu.png?type=default&r=gq8"
+      width="260"
+      alt="Allen's Dev Card"
+      style={{
+        borderRadius: 14,
+        boxShadow: '0 10px 30px rgba(0,0,0,.35)',
+      }}
+    />
+  </a>
 
-  {/* Stack */}
   <div
     style={{
       flex: 1,
