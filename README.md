@@ -2,6 +2,8 @@
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
 
+<a href="https://daily.dev/alleeendev"><img src="https://api.daily.dev/devcards/v2/3V8Tp9n0weSlaBFQarzAu.png?type=default&r=gq8" width="356" alt="Allen's Dev Card"/></a>
+
 ###
 
 <div align="center">
