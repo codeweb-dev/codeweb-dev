@@ -8,9 +8,20 @@
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=4000&pause=1000&color=4F8EF7&center=true&vCenter=true&width=700&lines=Hi+there!+I'm+Allen+%F0%9F%91%8B;Computer+Science+Student;React+Native+Developer;Web+Developer;Always+Learning+New+Things+%F0%9F%9A%80" />
 </p>
 
-<!-- Profile Views -->
+<!-- Profile Views + Committers.top -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=codeweb-dev&label=Profile+Views&style=for-the-badge&color=blueviolet" />
+  <img
+    src="https://komarev.com/ghpvc/?username=codeweb-dev&label=Profile+Views&style=for-the-badge&color=blueviolet"
+    alt="Profile Views"
+  />
+
+  <a href="https://user-badge.committers.top/philippines/codeweb-dev">
+    <img
+      height="28"
+      src="https://user-badge.committers.top/philippines/codeweb-dev.svg"
+      alt="Committers.top Rank"
+    />
+  </a>
 </p>
 
 <!-- Socials -->
