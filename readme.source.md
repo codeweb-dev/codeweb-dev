@@ -143,19 +143,16 @@
 
 ```aura width=800 height=260
 <div style={{ display: 'flex', gap: 16, width: '100%', height: '100%', fontFamily: 'Inter, sans-serif' }}>
-
-  {/* Dev Card */}
   <div
     style={{
-      width: 300,
-      height: '100%',
-      background: '#08080d',
-      borderRadius: 20,
-      overflow: 'hidden',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-    }}
+    width: 300,
+    height: '100%',
+    borderRadius: 20,
+    overflow: 'hidden',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }}
   >
     <a href="https://daily.dev/alleeendev">
       <img
