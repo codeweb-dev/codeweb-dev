@@ -343,3 +343,43 @@
   ]}
 />
 ```
+
+```aura width=800 height=28 inline align=center
+<div
+  style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 6,
+    fontSize: 12,
+    color: 'rgba(255,255,255,.45)',
+    fontFamily: 'Inter, sans-serif',
+  }}
+>
+  <span>special thanks to</span>
+
+  <a
+    href="https://github.com/collectioneur"
+    target="_blank"
+    style={{
+      color: '#fff',
+      textDecoration: 'none',
+    }}
+  >
+    collectioneur
+  </a>
+
+  <span>• powered by</span>
+
+  <a
+    href="https://github.com/collectioneur/readme-aura"
+    target="_blank"
+    style={{
+      color: '#fff',
+      textDecoration: 'none',
+    }}
+  >
+    readme-aura
+  </a>
+</div>
+```
