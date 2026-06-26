@@ -141,83 +141,149 @@
 </div>
 ```
 
-```aura width=800 height=200
-<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
-  <style>{`
-    @keyframes stack-orb { 0%, 100% { transform: translate(0,0); opacity: 0.45; } 50% { transform: translate(18px,-14px); opacity: 0.7; } }
-    @keyframes stack-orb-b { 0%, 100% { transform: translate(0,0); opacity: 0.4; } 50% { transform: translate(-14px,10px); opacity: 0.65; } }
-    @keyframes chip-appear { 0% { opacity: 0; transform: translateY(8px); } 100% { opacity: 1; transform: translateY(0); } }
-    #st-o1 { animation: stack-orb 10s ease-in-out infinite; }
-    #st-o2 { animation: stack-orb-b 12s ease-in-out infinite 1s; }
-    #st-o3 { animation: stack-orb 9s ease-in-out infinite 2.5s; }
-    #st-o4 { animation: stack-orb-b 11s ease-in-out infinite 0.5s; }
-  `}</style>
-  <svg width="800" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
-    <defs>
-      <radialGradient id="sg1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(108,195,130,0.4)" />
-        <stop offset="100%" stopColor="rgba(108,195,130,0)" />
-      </radialGradient>
-      <radialGradient id="sg2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(230,100,115,0.35)" />
-        <stop offset="100%" stopColor="rgba(230,100,115,0)" />
-      </radialGradient>
-      <radialGradient id="sg3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(80,160,220,0.3)" />
-        <stop offset="100%" stopColor="rgba(80,160,220,0)" />
-      </radialGradient>
-      <radialGradient id="sg4" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(195,155,255,0.3)" />
-        <stop offset="100%" stopColor="rgba(195,155,255,0)" />
-      </radialGradient>
-    </defs>
-    <ellipse id="st-o1" cx="80"  cy="160" rx="160" ry="120" fill="url(#sg1)" />
-    <ellipse id="st-o2" cx="730" cy="50"  rx="150" ry="120" fill="url(#sg2)" />
-    <ellipse id="st-o3" cx="640" cy="170" rx="140" ry="110" fill="url(#sg3)" />
-    <ellipse id="st-o4" cx="180" cy="40"  rx="130" ry="100" fill="url(#sg4)" />
-  </svg>
-  <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: 4, textTransform: 'uppercase', marginBottom: 20, zIndex: 10 }}>stack</span>
+```aura width=800 height=260
+<div style={{ display: 'flex', gap: 16, width: '100%', height: '100%', fontFamily: 'Inter, sans-serif' }}>
+
+  {/* Dev Card */}
   <div
     style={{
+      width: 300,
+      height: '100%',
+      background: '#08080d',
+      borderRadius: 20,
+      overflow: 'hidden',
       display: 'flex',
-      flexWrap: 'wrap',
-      gap: 10,
+      alignItems: 'center',
       justifyContent: 'center',
-      zIndex: 10,
-      maxWidth: 680,
     }}
   >
-    {[
-      'HTML',
-      'CSS',
-      'TailwindCSS',
-      'Bootstrap',
-      'JavaScript',
-      'TypeScript',
-      'React',
-      'React Native',
-      'Flutter',
-      'PHP',
-      'Laravel',
-      'Livewire',
-      'Node.js',
-      'MySQL',
-    ].map((tech, i) => (
-      <span
-        key={i}
+    <a href="https://daily.dev/alleeendev">
+      <img
+        src="https://api.daily.dev/devcards/v2/3V8Tp9n0weSlaBFQarzAu.png?type=default&r=gq8"
+        width="260"
+        alt="Allen's Dev Card"
         style={{
-          padding: '7px 18px',
-          background: 'rgba(255,255,255,0.04)',
-          color: 'rgba(255,255,255,0.65)',
-          borderRadius: 100,
-          fontSize: 12,
-          border: '1px solid rgba(255,255,255,0.08)',
-          letterSpacing: 0.5,
+          borderRadius: 14,
+          boxShadow: '0 10px 30px rgba(0,0,0,.35)',
         }}
-      >
-        {tech}
-      </span>
-    ))}
+      />
+    </a>
+  </div>
+
+  {/* Stack */}
+  <div
+    style={{
+      flex: 1,
+      position: 'relative',
+      background: '#08080d',
+      borderRadius: 20,
+      overflow: 'hidden',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+    }}
+  >
+    <style>{`
+      @keyframes stack-orb {
+        0%,100% { transform: translate(0,0); opacity:.45; }
+        50% { transform: translate(20px,-16px); opacity:.7; }
+      }
+
+      @keyframes stack-orb2 {
+        0%,100% { transform: translate(0,0); opacity:.35; }
+        50% { transform: translate(-18px,12px); opacity:.6; }
+      }
+
+      #o1 { animation: stack-orb 10s ease-in-out infinite; }
+      #o2 { animation: stack-orb2 12s ease-in-out infinite; }
+      #o3 { animation: stack-orb 9s ease-in-out infinite 2s; }
+    `}</style>
+
+    <svg
+      width="100%"
+      height="260"
+      style={{
+        position: 'absolute',
+        inset: 0,
+      }}
+    >
+      <defs>
+        <radialGradient id="g1">
+          <stop offset="0%" stopColor="rgba(108,195,130,.45)" />
+          <stop offset="100%" stopColor="transparent" />
+        </radialGradient>
+
+        <radialGradient id="g2">
+          <stop offset="0%" stopColor="rgba(230,100,115,.35)" />
+          <stop offset="100%" stopColor="transparent" />
+        </radialGradient>
+
+        <radialGradient id="g3">
+          <stop offset="0%" stopColor="rgba(80,160,220,.35)" />
+          <stop offset="100%" stopColor="transparent" />
+        </radialGradient>
+      </defs>
+
+      <ellipse id="o1" cx="80" cy="200" rx="170" ry="120" fill="url(#g1)" />
+      <ellipse id="o2" cx="520" cy="40" rx="160" ry="120" fill="url(#g2)" />
+      <ellipse id="o3" cx="470" cy="220" rx="160" ry="120" fill="url(#g3)" />
+    </svg>
+
+    <span
+      style={{
+        color: 'rgba(255,255,255,.35)',
+        fontSize: 11,
+        letterSpacing: 4,
+        textTransform: 'uppercase',
+        marginBottom: 20,
+        zIndex: 10,
+      }}
+    >
+      Tech Stack
+    </span>
+
+    <div
+      style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        gap: 10,
+        maxWidth: 420,
+        zIndex: 10,
+      }}
+    >
+      {[
+        'HTML',
+        'CSS',
+        'TailwindCSS',
+        'Bootstrap',
+        'JavaScript',
+        'TypeScript',
+        'React',
+        'React Native',
+        'Flutter',
+        'PHP',
+        'Laravel',
+        'Livewire',
+        'Node.js',
+        'MySQL',
+      ].map((tech) => (
+        <span
+          key={tech}
+          style={{
+            padding: '7px 18px',
+            borderRadius: 999,
+            background: 'rgba(255,255,255,.05)',
+            border: '1px solid rgba(255,255,255,.08)',
+            color: 'rgba(255,255,255,.68)',
+            fontSize: 12,
+          }}
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
   </div>
 </div>
 ```
