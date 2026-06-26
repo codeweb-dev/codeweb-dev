@@ -177,12 +177,46 @@
     <ellipse id="st-o4" cx="180" cy="40"  rx="130" ry="100" fill="url(#sg4)" />
   </svg>
   <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: 4, textTransform: 'uppercase', marginBottom: 20, zIndex: 10 }}>stack</span>
-  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'center', zIndex: 10, maxWidth: 680 }}>
-    {(github && github.languages && github.languages.length > 0
-      ? github.languages.slice(0, 10).map(function(l) { return l.name; })
-      : ['TypeScript', 'React', 'Node.js', 'Rust', 'Go', 'PostgreSQL', 'Docker', 'Figma', 'SVG', 'CSS']
-    ).map((tech, i) => (
-      <span key={i} style={{ padding: '7px 18px', background: 'rgba(255,255,255,0.04)', color: 'rgba(255,255,255,0.65)', borderRadius: 100, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)', letterSpacing: 0.5 }}>{tech}</span>
+  <div
+    style={{
+      display: 'flex',
+      flexWrap: 'wrap',
+      gap: 10,
+      justifyContent: 'center',
+      zIndex: 10,
+      maxWidth: 680,
+    }}
+  >
+    {[
+      'HTML',
+      'CSS',
+      'TailwindCSS',
+      'Bootstrap',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'React Native',
+      'Flutter',
+      'PHP',
+      'Laravel',
+      'Livewire',
+      'Node.js',
+      'MySQL',
+    ].map((tech, i) => (
+      <span
+        key={i}
+        style={{
+          padding: '7px 18px',
+          background: 'rgba(255,255,255,0.04)',
+          color: 'rgba(255,255,255,0.65)',
+          borderRadius: 100,
+          fontSize: 12,
+          border: '1px solid rgba(255,255,255,0.08)',
+          letterSpacing: 0.5,
+        }}
+      >
+        {tech}
+      </span>
     ))}
   </div>
 </div>
